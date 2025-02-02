@@ -1,6 +1,8 @@
 @font-face {
     font-family: "Santello";
-    src: url("/fonts/santello/santello.ttf");
+    src: url("fonts/santello/santello.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
 }
 
 :root {
