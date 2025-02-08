@@ -1,4 +1,9 @@
-AOS.init();
+// AOS
+AOS.init({
+	duration: 600,
+	easing: 'ease-in-out',
+	once: true,
+});
 
 // swiperAbout
 const swiperAbout = new Swiper('.swiperAbout', {
